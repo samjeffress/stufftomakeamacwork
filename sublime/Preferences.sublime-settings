@@ -1,1 +1,25 @@
-/Users/samuel.jeffress/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Dark Material/schemes/Dark-Material.tmTheme",
+	"folder_exclude_patterns":
+	[
+		"dist",
+		"coverage"
+	],
+	"font_face": "meslo lg m for powerline",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": false,
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Dark-Material.sublime-theme",
+	"translate_tabs_to_spaces": true,
+  "line_numbers": true
+}

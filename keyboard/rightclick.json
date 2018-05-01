@@ -1,1 +1,73 @@
-/Users/samuel.jeffress/.config/karabiner/assets/complex_modifications/rightclick.json
+{
+  "title": "Right click with right command double tap",
+  "rules": [
+    {
+      "description": "Right click with right command double tap",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button2"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "right_command pressed",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "right_command pressed",
+                "value": 1
+              }
+            },
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "to_delayed_action": {
+            "to_if_invoked": [
+              {
+                "set_variable": {
+                  "name": "right_command pressed",
+                  "value": 0
+                }
+              }
+            ],
+            "to_if_canceled": [
+              {
+                "set_variable": {
+                  "name": "right_command pressed",
+                  "value": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

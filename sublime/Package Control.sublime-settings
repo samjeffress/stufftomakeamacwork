@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
+		"BracketHighlighter",
 		"Case Conversion",
 		"ESLint",
 		"FlowType",

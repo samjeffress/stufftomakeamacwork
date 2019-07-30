@@ -7,12 +7,14 @@
 	[
 		"node_modules",
 		"coverage",
-		"dist"
+		"dist",
+		".webpack"
 	],
-	"font_face": "meslo lg m for powerline",
-	"font_size": 12,
+	"font_face": "liga meslo lg m",
+	"font_size": 16,
 	"ignored_packages":
 	[
+		"Php",
 		"Vintage"
 	],
 	"line_numbers": true,
@@ -20,6 +22,8 @@
 	"line_padding_top": 2,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
+	"scroll_past_end": true,
+	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Dark-Material.sublime-theme",

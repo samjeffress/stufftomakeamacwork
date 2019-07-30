@@ -8,12 +8,16 @@
 		"Babel",
 		"BracketHighlighter",
 		"Case Conversion",
+		"Elm Language Support",
+		"EML Syntax",
 		"ESLint",
-		"FlowType",
+		"Git blame",
 		"GitGutter",
 		"JSX",
+		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
-		"Theme - Dark Material"
+		"Theme - Dark Material",
+		"TypeScript Syntax"
 	]
 }

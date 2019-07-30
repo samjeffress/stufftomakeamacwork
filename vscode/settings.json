@@ -1,0 +1,23 @@
+{
+    "search.location": "panel",
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "gitProjectManager.baseProjectsFolders": ["~/Dev"],
+    "typescript.validate.enable": true,
+    "editor.tabSize": 2,
+    "workbench.editor.enablePreview": false,
+    "flow.useNPMPackagedFlow": true,
+    "explorer.openEditors.visible": 0,
+    "vim.disableExtension": true,
+    "window.zoomLevel": 0,
+    "editor.trimAutoWhitespace": false,
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontFamily": "liga meslo lg m",
+    "editor.fontSize": 17,
+    "editor.lineNumbers": "on",
+    "editor.scrollBeyondLastLine": true,
+    "window.title": "${activeEditorFull}${separator}${rootName}",
+    "editor.fontLigatures": true
+}
